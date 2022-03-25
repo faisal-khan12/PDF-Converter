@@ -1,11 +1,11 @@
 package util;
 
-import org.junit.Test;
-
-import dotaustere.androidmarket.pdfcreator.util.SplitPDFUtils;
-
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
+
+import org.junit.Test;
+
+import pdf.freePdf.newpdfcreator.util.SplitPDFUtils;
 
 public class PDFUtilsTest {
 

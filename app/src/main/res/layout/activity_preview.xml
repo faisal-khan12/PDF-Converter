@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="dotaustere.androidmarket.pdfcreator.activities.ActivityPreview">
+    tools:context="pdf.freePdf.newpdfcreator.activities.ActivityPreview">
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/viewpager"

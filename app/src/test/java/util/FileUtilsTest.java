@@ -1,5 +1,10 @@
 package util;
 
+import static org.hamcrest.CoreMatchers.is;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.mockito.Mockito.when;
+import static pdf.freePdf.newpdfcreator.util.FileUtils.getFileName;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,13 +14,8 @@ import org.mockito.junit.MockitoJUnitRunner;
 import java.io.File;
 import java.util.TimeZone;
 
-import dotaustere.androidmarket.pdfcreator.util.FileInfoUtils;
-import dotaustere.androidmarket.pdfcreator.util.FileUtils;
-
-import static org.hamcrest.CoreMatchers.is;
-import static org.hamcrest.MatcherAssert.assertThat;
-import static org.mockito.Mockito.when;
-import static dotaustere.androidmarket.pdfcreator.util.FileUtils.getFileName;
+import pdf.freePdf.newpdfcreator.util.FileInfoUtils;
+import pdf.freePdf.newpdfcreator.util.FileUtils;
 
 @RunWith(MockitoJUnitRunner.class)
 public class FileUtilsTest {

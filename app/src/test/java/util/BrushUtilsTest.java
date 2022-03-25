@@ -1,15 +1,15 @@
 package util;
 
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Test;
 
 import java.util.ArrayList;
 
-import androidmarket.R;
-import dotaustere.androidmarket.pdfcreator.pdfModel.BrushItem;
-import dotaustere.androidmarket.pdfcreator.util.BrushUtils;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import pdf.freePdf.newpdfcreator.R;
+import pdf.freePdf.newpdfcreator.pdfModel.BrushItem;
+import pdf.freePdf.newpdfcreator.util.BrushUtils;
 
 public class BrushUtilsTest {
 

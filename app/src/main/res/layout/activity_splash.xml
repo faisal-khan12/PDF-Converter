@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFD592"
-    tools:context="dotaustere.androidmarket.pdfcreator.activities.SplashActivity">
+    tools:context="pdf.freePdf.newpdfcreator.activities.SplashActivity">
 
     <ImageView
         android:id="@+id/image_view1"
